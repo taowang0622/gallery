@@ -8,6 +8,7 @@ To start the server, using `npm start`, and then checking out the gallery throug
 
 ##Tech stack
 Client-side: AngularJS + Bootstrap
+
 Server-side: NodeJS with the framework Express
 
 ##Endpoint
