@@ -10,34 +10,28 @@ router.get('/popular', function (req, res) {
         method: 'GET'
     };
 
-    let reqTo500px = https.request(options,response =>{
+    let reqTo500px = https.request(options, response =>{
         let data = '';
         let pics = null;
-        response.on('data', d => {
+        response.on('data', chunk => {
             //Transfer-encoding: chunked
-            data += d;
+            data += chunk;
         });
 
         response.on('end', ()=>{
+            // try-catch only for synchronous code
             try{
                 pics = JSON.parse(data);
                 res.setHeader('Transfer-encoding', 'chunked');
                 res.status(200).json(pics);
             }catch(e){
-                console.log(e.message);//TODO
-                res.status(500).json({
-                    err: e.message
-                });
+                next(e);
             }
         })
     });
 
     reqTo500px.on('error', err => {
-        console.log(err.message);
-        res.status(500).json({
-            err: 'An error occurred while sending a request to 500px',
-            message: err.message
-        });
+        next(err);
     });
 
     reqTo500px.end();

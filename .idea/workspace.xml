@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a2d989-38e6-475f-9e92-5a12250f8361" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/pics.js" afterPath="$PROJECT_DIR$/routes/pics.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +32,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="394">
+              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -41,8 +42,8 @@
       <file leaf-file-name="pics.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/pics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +62,8 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -148,11 +149,11 @@
         <option value="$PROJECT_DIR$/angular-app/app/views/main.html" />
         <option value="$PROJECT_DIR$/angular-app/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/angular-app/app/index.html" />
-        <option value="$PROJECT_DIR$/routes/pics.js" />
         <option value="$PROJECT_DIR$/angular-app/app/scripts/controllers.js" />
         <option value="$PROJECT_DIR$/angular-app/app/views/grids.html" />
         <option value="$PROJECT_DIR$/angular-app/app/styles/main.css" />
         <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/routes/pics.js" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -211,6 +212,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GalleryFor500px" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GalleryFor500px" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -227,7 +242,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="ma&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/styles/main.css&#10;grids&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/views/grids.html&#10;pics&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/routes/pics.js&#10;ser&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/scripts/services.js&#10;ind&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/index.html&#10;con&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/scripts/controllers.js&#10;g&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/views/grids.html&#10;app&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/scripts/app.js&#10;cont&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/scripts/controllers.js&#10;inde&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/index.html&#10;gr&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/views/grids.html&#10;in&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/index.html&#10;pic&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/routes/pics.js&#10;au&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;aut&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;users&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;conf&#9;FILE&#9;file://D:/WebApp-Gallery/config.js&#10;user&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;use&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;auth&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;us&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;a&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;www&#9;FILE&#9;file://D:/WebApp-Gallery/bin/www" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://D:/GalleryFor500px/app.js&#10;ma&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/styles/main.css&#10;grids&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/views/grids.html&#10;pics&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/routes/pics.js&#10;ser&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/scripts/services.js&#10;ind&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/index.html&#10;con&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/scripts/controllers.js&#10;g&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/views/grids.html&#10;cont&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/scripts/controllers.js&#10;inde&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/index.html&#10;gr&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/views/grids.html&#10;in&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/angular-app/app/index.html&#10;pic&#9;FILE&#9;file://D:/WebApp-Gallery/V2.0.0/routes/pics.js&#10;au&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;aut&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;users&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;conf&#9;FILE&#9;file://D:/WebApp-Gallery/config.js&#10;user&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;use&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;auth&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;us&#9;FILE&#9;file://D:/WebApp-Gallery/routes/users.js&#10;a&#9;FILE&#9;file://D:/WebApp-Gallery/authenticate.js&#10;www&#9;FILE&#9;file://D:/WebApp-Gallery/bin/www" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -651,19 +666,28 @@
       <workItem from="1487547490918" duration="2796000" />
       <workItem from="1487555657109" duration="12527000" />
       <workItem from="1487620015417" duration="11622000" />
-      <workItem from="1487633402759" duration="632000" />
+      <workItem from="1487633402759" duration="4502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67568000" />
+    <option name="totallyTimeSpent" value="71438000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -679,6 +703,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953101" sideWeight="0.4811784" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -691,7 +716,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41734862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -928,14 +952,6 @@
     <entry file="file://$PROJECT_DIR$/angular-app/bower_components/bootstrap/dist/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/angular-app/app/views/grids.html" />
     <entry file="file://$PROJECT_DIR$/angular-app/app/styles/main.css" />
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -968,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/pics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -984,10 +992,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/pics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="394">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding />
         </state>
       </provider>

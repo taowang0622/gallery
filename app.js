@@ -30,22 +30,24 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/pics', pics);
 
-// catch 404 and forward to error handler
-app.use(function (req, res, next) {
-    let err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
-// error handler
-app.use(function (err, req, res, next) {
-    // set locals, only providing error in development
-    res.locals.message = err.message;
-    res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-    // render the error page
+// error handlers
+// development error handler
+if (app.get('env') === 'development') {
+    app.use(function(err, req, res, next) {
+        res.status(err.status || 500);
+        res.json({     //Since the client is angular application, easier to handle JSON string
+            message: err.message,
+            error: err  // will print stacktrace
+        });
+    });
+}
+// production error handler
+app.use(function(err, req, res, next) {
     res.status(err.status || 500);
-    res.render('error');
+    res.json({
+        message: err.message,
+        error: {} // no stacktraces leaked to user
+    });
 });
 
 module.exports = app;
