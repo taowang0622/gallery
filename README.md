@@ -13,5 +13,5 @@ Server-side: NodeJS with the framework Express
 ##Endpoint
 `GET /pics/popular`
 
-#Screenshot
+##Screenshot
 ![gallery](https://www.dropbox.com/s/am42zqku8u6c8l7/%23%21.jpg?raw=1)
