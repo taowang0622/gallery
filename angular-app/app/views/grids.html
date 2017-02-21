@@ -1,15 +1,22 @@
 <div class="container">
-  <div class="row">
-    <div class="col-xs-4 col-md-2" ng-repeat="pic in picsByPage[currentPage - 1]">
-       <a href="#" class="thumbnail" uib-tooltip='"{{pic.name}}" by {{pic.user.username}}'>
-         <img src="{{pic.image_url}}">
-       </a>
+  <div class="row" ng-if="!showGallery">
+    <div class="col-xs-4 col-xs-offset-4 centerText">
+      <h1>{{message}}</h1>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3" style="text-align: center">
-      <ul uib-pagination total-items="totalPics" ng-model="currentPage"
-          max-size="maxSize" items-per-page="picsPerPage" force-ellipses="true"></ul>
+  <div class="row" ng-if="showGallery">
+    <div class="row">
+      <div class="col-xs-4 col-md-2" ng-repeat="pic in picsByPage[currentPage - 1]">
+        <a href="#" class="thumbnail" uib-tooltip='"{{pic.name}}" by {{pic.user.username}}'>
+          <img src="{{pic.image_url}}">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3 centerText">
+        <ul uib-pagination total-items="totalPics" ng-model="currentPage"
+            max-size="maxSize" items-per-page="picsPerPage" force-ellipses="true"></ul>
+      </div>
     </div>
   </div>
 </div>

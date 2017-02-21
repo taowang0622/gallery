@@ -1,3 +1,4 @@
+//Global configuration
 module.exports = {
     _500px: {
         consumerKey: 'UYdICdGAWOCVD4RXqv91LU2QjIx6nKgUTFI45GeI',
