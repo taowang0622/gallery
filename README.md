@@ -15,4 +15,4 @@ Server-side: NodeJS with the framework Express
 `GET /pics/popular`
 
 ##Screenshot
-![gallery](https://www.dropbox.com/s/am42zqku8u6c8l7/%23%21.jpg?raw=1)
+![gallery](https://www.dropbox.com/s/kx4iwxusbo32vv5/s.png?raw=1)
